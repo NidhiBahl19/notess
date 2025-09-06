@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Note Taking App</h1>
+        <div id="gamification-container">
+            <div id="streak-container">
+                <h2>Note Streak: <span id="streak-count">0</span></h2>
+            </div>
+            <div id="achievements-container">
+                <h2>Achievements</h2>
+                <ul id="achievements-list"></ul>
+            </div>
+        </div>
+        <div class="note-input-container">
+            <textarea id="note-input" placeholder="Enter your note here..."></textarea>
+            <button id="add-note-btn">Add Note</button>
+        </div>
+        <div id="notes-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
